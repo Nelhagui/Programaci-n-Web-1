@@ -94,3 +94,9 @@
     font-size: 14px;
     margin-bottom: 20px;
 }
+
+.img-contacto {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
