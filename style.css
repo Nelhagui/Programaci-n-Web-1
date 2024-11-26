@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color-primary {
+    color: #D99679;
+}
+.btn-primary {
+    background-color: #DD7142;
+    border: none;
+}
+
+.pricing-card {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    transition: 0.3s;
+    height: 200px;
+}
+.pricing-card h3, .pricing-card p, .pricing-card button {
+    text-align: center;
+}
+.pricing-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.payment-row {
+    width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    flex-wrap: nowrap; /* Impide que los elementos se vayan a una nueva línea */
+    overflow-x: auto; /* Agrega scroll horizontal si el contenido excede el ancho */
+    gap: 10px; /* Espaciado entre las imágenes */
+}
+
+.payment-logo {
+    max-width: 30%; /* Cada imagen ocupa hasta el 30% del ancho del contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    object-fit: contain; /* Evita deformaciones */
+}
+
+.gradient-background {
+    background: linear-gradient(90deg, #1B1E30 0%, #1C1F32 55%, #262A42 100%);
+}
+
+/* FUNCIONALIDADES */
+.item-funcionalidades {
+    display: flex;
+    justify-content: space-between;
+}
+.item-funcionalidades h4 {
+    font-size: 45px;
+    line-height: 1;
+    color: black;
+}
+
+/* PRECIOS */
+.discount {
+    background-color: #BEDEAF;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+/* FAQ SECTION */
+.faq-section {
+    color: white;
+}
+.faq-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.faq-section h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.faq-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rápido Ventas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar {
+            background-color: #0b1020;
+            /* Fondo del navbar */
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .hero-text h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .hero-text .highlight-blue {
+            color: #4f82e4;
+        }
+
+        .hero-text .highlight-orange {
+            color: #f79f65;
+        }
+
+        .contact-btn {
+            background-color: #4f82e4;
+            color: #fff;
+            border: none;
+        }
+
+        .contact-btn:hover {
+            background-color: #3a63b5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">Rápido Ventas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Funcionalidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Iniciar Sesión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Registrarse</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- BANNER -->
+        <!-- <section class="container hero">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="./assets/woman.png" class="w-75" alt="Mujer con tablet" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 pt-5 d-flex flex-column justify-content-center hero-text">
+                    <h1>Sistema de Administración</h1>
+                    <p>
+                        La herramienta ideal para <span class="highlight-blue">acelerar ventas</span>
+                        todo en una sola <span class="highlight-orange">plataforma intuitiva</span>.
+                    </p>
+                    <button class="btn contact-btn mt-3">Contactar</button>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- NOSOTROS -->
+        <section id="nosotros" class="py-5" style="background-color: #4f82e4; color: white;">
+            <div class="container">
+                <div class="row gap-3 gap-lg-0">
+                    <!-- Texto -->
+                    <div class="col-md-6">
+                        <h2 class="mb-4" style="font-weight: bold;">Un Aliado para <span
+                                style="color: #f79f65;">Impulsar</span>
+                            y <span style="color: #f79f65;">Gestionar</span> tu
+                            negocio</h2>
+                        <div class="p-4 rounded" style="background-color: #283B5B;">
+                            <p>
+                                Impulsamos las ventas de tu negocio y optimizamos tus operaciones con una plataforma
+                                todo en
+                                uno que lo tiene todo para que gestiones de forma fácil y eficiente.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Imagen -->
+                    <div class="col-md-6 d-flex justify-content-center">
+                        <div style="width: 300px; height: 300px; background: url('./assets/img-man.png') center/cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FUNCIONALIDADES -->
+        <section id="funcionalidades" class="container d-grid gap-3 py-5">
+                <div class="row">
+                    <h2 class="text-center fw-bold">Nuestras Funcionalidades</h2>
+                </div>                <!-- Primera tarjeta -->
+                <div class="row mt-5 gap-3 gap-lg-0 item-funcionalidades">
+                    <!-- <div class="d-flex flex-column align-items-center text-center gap-2"> -->
+                    <div class="col-md-6 text-center text-md-end">
+                        <img src="./assets/icono-control-stock.png" alt="Ícono Control de Stock" class="img-fluid" style="max-height: 180px;">
+                    </div>
+                    <div class="col-md-6 align-content-center text-center text-md-start">
+                        <h4 class="fw-bold">Control de <span class="color-primary">Stock</span></h4>
+                        <p class="text-muted">Permite gestionar y monitorear el <br> inventario de productos disponibles.
+                        </p>
+                        <button class="btn btn-primary text-white">VER FUNCIONALIDADES</button>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <!-- Segunda tarjeta -->
+                <div class="row mt-5 gap-3 gap-lg-0 item-funcionalidades">
+                    <div class="col-md-6 align-content-center text-center text-md-end">
+                        <h4 class="fw-bold">Administración de  <br> <span class="color-primary">Clientes y
+                                Proveedores</span></h4>
+                        <p class="text-muted">Permite gestionar y monitorear el <br> inventario de productos disponibles.
+                        </p>
+                        <button class="btn btn-primary text-white">VER FUNCIONALIDADES</button>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <img src="./assets/icono-administracion-clientes.png" alt="Ícono Administración Clientes" class="img-fluid" style="max-height: 180px;">
+                    </div>
+                </div>
+        </section>
+
+        <!-- FUNCIONALIDADES 2 -->
+        <section class="container-fluid py-5" style="background-color: rgba(121, 163, 217, 0.17);">
+            <div class="row text-center">
+                <!-- Primera columna -->
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="icon mb-3">
+                            <img src="./assets/manejo-cajas.png" alt="Ícono 1" class="img-fluid">
+                        </div>
+                        <h4 class="fw-bold">Manejo de <br> <span class="color-primary">Cajas</span></h4>
+                        <p class="text-muted">Esta es una descripción breve sobre la funcionalidad o característica
+                            mencionada.</p>
+                    </div>
+                </div>
+                <!-- Segunda columna -->
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="icon mb-3">
+                            <img src="./assets/reportes.png" alt="Ícono 2" class="img-fluid">
+                        </div>
+                        <h4 class="fw-bold">Reportes e <br> <span class="color-primary">Indicadores</span></h4>
+                        <p class="text-muted">Esta es una descripción breve sobre la funcionalidad o característica
+                            mencionada.</p>
+                    </div>
+                </div>
+                <!-- Tercera columna -->
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="icon mb-3">
+                            <img src="./assets/descuentos.png" alt="Ícono 3" class="img-fluid">
+                        </div>
+                        <h4 class="fw-bold">Configuración <br> de <span class="color-primary">Descuentos</span></h4>
+                        <p class="text-muted">Esta es una descripción breve sobre la funcionalidad o característica
+                            mencionada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRECIOS -->
+        <section class="container py-5">
+            <div class="row text-center mb-5">
+                <h2 class="mb-4" style="font-weight: bold;">Un <span style="color: #f79f65;">único</span> pan en tus
+                    manos</h2>
+                <p>Elige la Solución <span style="color: #f79f65;">Ideal</span> para Tu Negocio</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Suscripción Mensual -->
+                <div class="col-md-4">
+                    <div class="pricing-card d-flex flex-column justify-content-around text-center">
+                        <h3>Suscripción Mensual</h3>
+                            <p class="text-decoration-line-through">$25325</p> <span class="discount">20% OFF</span>
+                        <p class="price">$25000</p> <span>/Mes</span>
+                        <button class="btn btn-primary">Probar Gratis</button>
+                    </div>
+                </div>
+
+                <!-- Suscripción Semestral -->
+                <div class="col-md-4">
+                    <div class="pricing-card d-flex flex-column justify-content-around text-center">
+                        <h3>Suscripción Semestral</h3>
+                        <p class="price"> <span class="tag">Más económico</span> $XX,XX<span class="month">/mes</span>
+                        </p>
+                        <button class="btn btn-primary">Probar Gratis</button>
+                    </div>
+                </div>
+
+                <!-- Suscripción Anual -->
+                <div class="col-md-4">
+                    <div class="pricing-card d-flex flex-column justify-content-around text-center">
+                        <h3>Suscripción Anual</h3>
+                        <p class="price"><span class="tag">Ahorro Garantizado</span> $XX,XX<span
+                                class="month">/mes</span></p>
+                        <button class="btn btn-primary">Probar Gratis</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Métodos de pago -->
+            <div class="row text-center mt-5">
+                <h5>Medios de pago</h5>
+                <div class="d-flex justify-content-between align-items-center payment-row">
+                    <img class="payment-logo" src="./assets/mp.png" alt="MercadoPago">
+                    <img class="payment-logo" src="./assets/pago-facil.png" alt="Pago Fácil">
+                    <img class="payment-logo" src="./assets/rapipago.png" alt="Rapipago">
+                </div>
+            </div>
+        </section>
+
+        <!-- PREGUNTAS FRECUENTES -->
+        <section class="container py-5 faq-section gradient-background">
+            <div class="row">
+                <h2>Preguntas Frecuentes</h2>
+            </div>
+            <div class="faq-item">
+                <h3>¿Qué opciones de respaldo y recuperación de datos están disponibles?</h3>
+                <ul>
+                    <li>Ofrecemos opciones de respaldo automático y manual para asegurar que tus datos estén protegidos.
+                        En caso de pérdida de datos, puedes recuperar la información desde las copias de seguridad
+                        realizadas.</li>
+                </ul>
+            </div>
+            <div class="faq-item">
+                <h3>¿Cómo puedo gestionar la suscripción y los pagos del servicio?</h3>
+                <ul>
+                    <li>
+                        Puedes acceder a la sección de gestión de suscripciones y pagos desde el panel de
+                        administración.
+                        Aquí podrás revisar el estado de tu suscripción, actualizar la información de pago y gestionar
+                        cualquier aspecto
+                        relacionado con las tarifas del servicio.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <h3>¿Es posible añadir funcionalidades adicionales a la plataforma?</h3>
+                <ul>
+                    <li>
+                        Sí, puedes adquirir y añadir módulos o complementos adicionales según las necesidades de tu
+                        negocio.
+                        Consulta nuestras tarifas para obtener acceso a más opciones que pueden mejorar aún más tu
+                        experiencia.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <h3>¿Puedo recibir soporte técnico si tengo problemas con la plataforma?</h3>
+                <ul>
+                    <li>
+                        Sí, ofrecemos soporte técnico dedicado para resolver cualquier problema que puedas encontrar.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section class="container py-5">
+            <div class="row">
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">¿Dudas? Hablemos</h2>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <!-- Columna izquierda: Formulario -->
+                <div class="col-md-6">
+                    <form>
+                        <!-- Nombre -->
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <!-- Correo -->
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="correo" placeholder="Tu correo" required>
+                        </div>
+                        <!-- Asunto -->
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="asunto" placeholder="Asunto" required>
+                        </div>
+                        <!-- Mensaje -->
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Tu mensaje"
+                                required></textarea>
+                        </div>
+                        <!-- Botón enviar -->
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Columna derecha: Imagen -->
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="https://via.placeholder.com/500" alt="Imagen de contacto" class="img-fluid rounded">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <!-- Primera fila: Iconos de redes sociales y nombre del sistema -->
+            <div class="row mb-3">
+                <div class="col-12 d-flex justify-content-center align-items-center gap-3">
+                    <!-- Iconos de redes sociales -->
+                    <a href="#" class="text-white text-decoration-none">
+                        <i class="bi bi-facebook fs-4"></i>
+                    </a>
+                    <a href="#" class="text-white text-decoration-none">
+                        <i class="bi bi-twitter fs-4"></i>
+                    </a>
+                    <!-- Nombre del sistema -->
+                    <span class="fs-5 fw-bold ms-3">RápidoVentas</span>
+                </div>
+            </div>
+
+            <!-- Segunda fila: Secciones de la página -->
+            <div class="row mb-3">
+                <div class="col-12">
+                    <nav>
+                        <a href="/funcionalidades.html" class="text-white text-decoration-none mx-2">Funcionalidades</a>
+                        <a href="/precios.html" class="text-white text-decoration-none mx-2">Precios</a>
+                        <a href="#" class="text-white text-decoration-none mx-2">Iniciar Sesión</a>
+                        <a href="#" class="text-white text-decoration-none mx-2">Registrarse</a>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Tercera fila: Texto de derechos reservados -->
+            <div class="row">
+                <div class="col-12">
+                    <small>
+                        <i class="bi bi-c-circle"></i> 2024 RápidoVentas. Todos los derechos reservados.
+                    </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
