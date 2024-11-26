@@ -12,36 +12,6 @@
     border: none;
 }
 
-.pricing-card {
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #e1e1e1;
-    background-color: #fff;
-    transition: 0.3s;
-    height: 200px;
-}
-.pricing-card h3, .pricing-card p, .pricing-card button {
-    text-align: center;
-}
-.pricing-card h3 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.payment-row {
-    width: 100%; /* Asegura que no exceda el ancho del contenedor */
-    flex-wrap: nowrap; /* Impide que los elementos se vayan a una nueva línea */
-    overflow-x: auto; /* Agrega scroll horizontal si el contenido excede el ancho */
-    gap: 10px; /* Espaciado entre las imágenes */
-}
-
-.payment-logo {
-    max-width: 30%; /* Cada imagen ocupa hasta el 30% del ancho del contenedor */
-    height: auto; /* Mantiene las proporciones de la imagen */
-    object-fit: contain; /* Evita deformaciones */
-}
 
 .gradient-background {
     background: linear-gradient(90deg, #1B1E30 0%, #1C1F32 55%, #262A42 100%);
@@ -64,6 +34,44 @@
     padding: 7px;
     border-radius: 7px;
     font-size: 13px;
+}
+.previous-price {
+    display: inline-block;
+}
+.pricing-card {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    transition: 0.3s;
+    min-height: 200px;
+}
+.pricing-card h3, .pricing-card p, .pricing-card button {
+    text-align: center;
+}
+.pricing-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+.payment-row {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.payment-logo {
+    max-width: 30%;
+    height: auto;
+    object-fit: contain;
 }
 
 /* FAQ SECTION */
