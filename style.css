@@ -17,6 +17,27 @@
     background: linear-gradient(90deg, #1B1E30 0%, #1C1F32 55%, #262A42 100%);
 }
 
+/* BANNER */
+.section-banner {
+    color: white
+}
+.section-banner h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section-banner p {
+    font-size: 40px;
+    line-height: 1.2;
+}
+.highlight-blue {
+    color: #4A90E2;
+    font-size: 48px;
+}
+.section-banner .color-primary {
+    font-size: 48px;
+}
+
 /* FUNCIONALIDADES */
 .item-funcionalidades {
     display: flex;
