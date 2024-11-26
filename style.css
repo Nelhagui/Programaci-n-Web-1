@@ -50,6 +50,10 @@
 }
 
 /* PRECIOS */
+.prices-section {
+    background-color: #1B1E30;
+}
+
 .discount {
     background-color: #BEDEAF;
     padding: 7px;
@@ -97,6 +101,7 @@
 
 /* FAQ SECTION */
 .faq-section {
+    background-color: #1B1E30;
     color: white;
     padding: 80px 0;
 }
