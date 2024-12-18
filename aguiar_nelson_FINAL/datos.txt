@@ -1,0 +1,11 @@
+Carrera: Analista de Sistemas
+Materia: Programación Web 1
+Cuatrimestre: Segundo cuatrimestre 
+Año: 2024 
+Turno: Noche 
+Comisión: ACN1AV 
+Nombre y apellido: Nelson Aguiar Salazar 
+Carácter de entrega:FINAL
+Docente: Verónica Vanesa Donnadio
+
+Link Figma Mockup: https://www.figma.com/design/MieTZs3UTfmtnTRktCbfhC/Programaci%C3%B3n-Web---RapidoVentas---Mock?node-id=0-1&t=Bl6udjzDUWoGzZXH-1

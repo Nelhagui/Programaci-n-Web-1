@@ -144,7 +144,6 @@
 .faq-section h2 {
     font-size: 36px;
     font-weight: 600;
-    margin-bottom: 30px;
 }
 
 .faq-section h3 {
@@ -200,4 +199,13 @@
 .icon-yt {
     width: 33px;
     height: auto;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #24283f;
+}
+
+.accordion-button:focus {
+    box-shadow: #47518a !important;
 }
